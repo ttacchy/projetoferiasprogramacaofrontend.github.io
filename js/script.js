@@ -1,9 +1,21 @@
 let escuro = false;
 
-function modoEscuro(){
+function tema(){
 
     escuro = !escuro;
 
-    document.getElementById("pagina").classList.toggle("dark");
+    document.getElementById("body").classList.toggle("dark");
+
+    let botao = document.querySelector("button.btn-light");
+
+    if(escuro){
+
+        botao.innerHTML="☀️";
+
+    }else{
+
+        botao.innerHTML="🌙";
+
+    }
 
 }
