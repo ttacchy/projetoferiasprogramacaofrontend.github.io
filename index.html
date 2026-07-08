@@ -1,1 +1,309 @@
+<!DOCTYPE html>
+<html lang="pt-br">
 
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Tensura - Reino de Tempest</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body id="pagina">
+
+    <!-- Navbar -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
+
+        <div class="container">
+
+            <a class="navbar-brand fw-bold" href="#">
+                Tensura
+            </a>
+
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+
+            <div class="collapse navbar-collapse" id="menu">
+
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sobre">Sobre</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#servicos">Personagens</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#galeria">Galeria</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contato">Contato</a>
+                    </li>
+
+                </ul>
+
+                <button class="btn btn-light ms-3" onclick="modoEscuro()">
+                    🌙 Tema
+                </button>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+    <!-- Hero -->
+
+    <section class="hero">
+
+        <div class="container">
+
+            <h1 class="display-3">
+                Bem-vindo ao Reino de Tempest
+            </h1>
+
+            <p class="lead">
+
+                Conheça Rimuru Tempest e seus aliados.
+
+            </p>
+
+            <a href="#sobre" class="btn btn-primary btn-lg">
+
+                Explorar
+
+            </a>
+
+        </div>
+
+    </section>
+
+    <!-- Sobre -->
+
+    <section class="container py-5" id="sobre">
+
+        <div class="row align-items-center">
+
+            <div class="col-md-6">
+
+                <img src="img/rimuru.png" class="img-fluid">
+
+            </div>
+
+            <div class="col-md-6">
+
+                <h2>Sobre o Anime</h2>
+
+                <p>
+
+                    Tensei Shitara Slime Datta Ken conta a história de
+                    Satoru Mikami, que renasce como um slime e recebe
+                    o nome Rimuru Tempest.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Cards -->
+
+    <section class="container py-5" id="servicos">
+
+        <h2 class="text-center mb-5">
+            Personagens
+        </h2>
+
+        <div class="row">
+
+            <div class="col-md-4">
+
+                <div class="card h-100">
+
+                    <img src="img/rimuru.png" class="card-img-top">
+
+                    <div class="card-body">
+
+                        <h4>Rimuru</h4>
+
+                        <p>
+
+                            Líder da Federação Jura Tempest.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-md-4">
+
+                <div class="card h-100">
+
+                    <img src="img/galeria1.jpg" class="card-img-top">
+
+                    <div class="card-body">
+
+                        <h4>Benimaru</h4>
+
+                        <p>
+
+                            General do Exército de Tempest.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-md-4">
+
+                <div class="card h-100">
+
+                    <img src="img/galeria2.jpg" class="card-img-top">
+
+                    <div class="card-body">
+
+                        <h4>Shuna</h4>
+
+                        <p>
+
+                            Princesa Ogre e administradora.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Galeria -->
+
+    <section class="container py-5" id="galeria">
+
+        <h2 class="text-center mb-5">
+
+            Galeria
+
+        </h2>
+
+        <div class="row">
+
+            <div class="col-md-3 mb-3">
+
+                <img src="img/galeria1.jpg" class="img-fluid rounded">
+
+            </div>
+
+            <div class="col-md-3 mb-3">
+
+                <img src="img/galeria2.jpg" class="img-fluid rounded">
+
+            </div>
+
+            <div class="col-md-3 mb-3">
+
+                <img src="img/galeria3.jpg" class="img-fluid rounded">
+
+            </div>
+
+            <div class="col-md-3 mb-3">
+
+                <img src="img/galeria4.jpg" class="img-fluid rounded">
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Contato -->
+
+    <section class="container py-5" id="contato">
+
+        <h2 class="text-center mb-4">
+
+            Contato
+
+        </h2>
+
+        <form>
+
+            <div class="mb-3">
+
+                <label>Nome</label>
+
+                <input class="form-control">
+
+            </div>
+
+            <div class="mb-3">
+
+                <label>Email</label>
+
+                <input type="email" class="form-control">
+
+            </div>
+
+            <div class="mb-3">
+
+                <label>Mensagem</label>
+
+                <textarea class="form-control" rows="5"></textarea>
+
+            </div>
+
+            <button class="btn btn-primary">
+
+                Enviar
+
+            </button>
+
+        </form>
+
+    </section>
+
+    <!-- Rodapé -->
+
+    <footer class="bg-primary text-white text-center p-4">
+
+        © 2026 - Site desenvolvido sobre Tensura
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
