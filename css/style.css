@@ -6,6 +6,8 @@ transition:.5s;
 
 font-family:Segoe UI;
 
+background: linear-gradient(to bottom, #DFF6FF, #A2D2FF, #5FA8F5);
+
 }
 
 .navbar{
