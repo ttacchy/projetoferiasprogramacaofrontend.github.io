@@ -154,6 +154,7 @@ footer {
 .botao-tema:hover img {
 
     transform: rotate(20deg) scale(1.15);
+    box-shadow:0 0 15px #8ED8FF;
 
 }
 
